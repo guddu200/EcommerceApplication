@@ -17,16 +17,7 @@ public class UserService {
             this.userrepository = userRepoObj;
             this.tokenservice = tokenservice;
         }
-//        public User register(User user){
-////            if(!existByEmail(user.getEmail())){
-//                User res=userrepository.save(user);
-////                System.out.println(res);
-////                return "Registration Successful";
-//                return  res;
-//            }
-//            else
-//                return "Already register ";
-//        }
+
 
     public User register(User user){
             User saveall=userrepository.save(user);
